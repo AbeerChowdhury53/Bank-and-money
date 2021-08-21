@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assingment 5</title>
+    <!-- link css stylesheet -->
+    <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+    <main class="main-cont">
+     <!-- div for image section     -->
+        <div>
+     <section class="mac-img">
+         <img width="500px" src="images/mac.png" alt="">
+     </section>
+    </div>
+
+    <!-- div for calulation section -->
+ <div>
+      <section>
+          <h1>Customize your Blue 24-inch <br> iMac with Apple M1 Chio</h1>
+          <p> Trade‑in values will vary based on the condition, year, and configuration of your trade‑in device. You must be at least 18 years old to be eligible to trade in for credit or for an Apple Gift Card. Not all devices are eligible for credit. More details are available from Appleʼs Mac trade‑in partner. Restrictions and limitations may apply. Trade‑in values are based on the received device matching the description you provided when your estimate was made. Apple reserves the right to refuse or limit the quantity of any device for any reason. In the Apple Store: Offer only available on presentation of a valid, government‑issued photo ID (local law may require saving this information). Value of your current device may be applied toward purchase of a new Apple device. Offer may not be available in all stores. Some stores may have additional requirements.</p>
+      </section>
+
+        <section>
+            <!-- button for memory  -->
+            <div>
+                <h4>Memory</h4>
+                <button id="RAM8GB">8GB unified memory</button>
+                <button id="RAM16GB">16GB unified memory</button>
+            </div>
+
+            <!-- button for storage -->
+            <div>
+                <h4>Storage</h4>
+                <button id="SSD256GB">256GB SSD storage</button>
+                <button id="SSD512GB">512GB SSD storage</button>
+                <button id="SSD1TB">1TB SSD storage</button>
+            </div>
+
+            <!-- button for delivery -->
+            <div>
+                <h4>Delivery Option</h4>
+                <button id="FREEDEL">Friday,Aug 25 FREE Prime Delivery</button>
+                <button id="DEL20">Friday,Aug 25 FREE Prime Delivery charge $20 </button>
+            </div>
+        </section>
+
+
+        <section  class="price-calculation">
+            <!-- title for price  -->
+            <div class="price-taitle" style="margin: 0%;">
+                <h5>Best Price</h5>
+                <h5>Extra Memory Cost</h5>
+                <h5>Extra Storage Cost</h5>
+                <h5>Delivery charge</h5>
+                <hr>
+                <h5>Total Price</h5>
+            </div>
+
+            <!-- price value -->
+            <div class="price-detail" style="margin: 0%;">
+                <h5 >$ <span id="best-price">1299</span> </h5>
+                <h5 >$ <span id="ext-memory">0</span> </h5>
+                <h5 >$ <span id="ext-storage">0</span> </h5>
+                <h5 >$ <span id="del-charge">0</span> </h5>
+                <hr>
+                <h5 >$<span id="total-price">1299</span> </h5>
+            </div>
+        </section>
+<!-- bonous section -->
+        <section>
+            <p> <small>Add Promo Code</small> </p>
+            <input id="promoFild"  type="text">
+            <button id="promobtn" >Apply</button>
+        </section>
+    </div>
+</main>
+
+<footer>
+<!-- bonous section fild -->
+        <section>
+            <div class="bonus" >
+                <h2  >Total: $ <span id="totalBonus">1299</span> </h2>
+            </div>
+        </section>
+    </footer>
+    
+ 
+<!-- call javascript file  -->
+    <script src="apply.js"></script>
+    
+</body>
+</html>
